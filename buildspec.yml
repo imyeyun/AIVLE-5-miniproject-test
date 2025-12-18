@@ -9,10 +9,10 @@ phases:
 
   build:
     commands:
-      - cd miniproject4-spring/miniproject04
+      - cd AIVLE-4_mini_project-back/miniproject4-spring/miniproject04
       - chmod +x gradlew
       - ./gradlew clean build -x test
 
 artifacts:
   files:
-    - miniproject4-spring/miniproject04/build/libs/*.jar
+    - AIVLE-4_mini_project-back/miniproject4-spring/miniproject04/build/libs/*.jar
